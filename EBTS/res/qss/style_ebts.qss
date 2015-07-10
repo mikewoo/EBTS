@@ -1,0 +1,722 @@
+
+/*
+FileName: style_ebts.qss
+Date: 2012-12-16;
+*/
+
+/*pushButton1*/
+QPushButton#pushButton{
+        background-image: url(:/res/image/1.png);
+	border: 0px;
+}
+QPushButton#pushButton:hover{
+        background-image: url(:/res/image/11.png);
+	border: 0px;
+}
+QPushButton#pushButton:checked{
+        background-image: url(:/res/image/11.png);
+	border: 0px;
+}
+
+/*pushButton2*/
+QPushButton#pushButton_2{
+	background-image: url(:/res/image/2.png);
+	border: 0px;
+}
+QPushButton#pushButton_2:hover{
+        background-image: url(:/res/image/22.png);
+	border: 0px;
+}
+QPushButton#pushButton_2:checked{
+        background-image: url(:/res/image/22.png);
+	border: 0px;
+}
+
+/*pushButton3*/
+QPushButton#pushButton_3{
+	background-image: url(:/res/image/3.png);
+	border: 0px;
+}
+QPushButton#pushButton_3:hover{
+        background-image: url(:/res/image/33.png);
+	border: 0px;
+}
+QPushButton#pushButton_3:checked{
+        background-image: url(:/res/image/33.png);
+	border: 0px;
+}
+
+/*pushButton4*/
+QPushButton#pushButton_4{
+	background-image: url(:/res/image/4.png);
+	border: 0px;
+}
+QPushButton#pushButton_4:hover{
+        background-image: url(:/res/image/44.png);
+	border: 0px;
+}
+QPushButton#pushButton_4:checked{
+        background-image: url(:/res/image/44.png);
+	border: 0px;
+}
+
+/*pushButton5*/
+QPushButton#pushButton_5{
+	background-image: url(:/res/image/5.png);
+	border: 0px;
+}
+QPushButton#pushButton_5:hover{
+        background-image: url(:/res/image/55.png);
+	border: 0px;
+}
+QPushButton#pushButton_5:checked{
+        background-image: url(:/res/image/55.png);
+	border: 0px;
+}
+
+/*pushButton6*/
+QPushButton#pushButton_6{
+	background-image: url(:/res/image/6.png);
+	border: 0px;
+}
+QPushButton#pushButton_6:hover{
+        background-image: url(:/res/image/66.png);
+	border: 0px;
+}
+QPushButton#pushButton_6:checked{
+        background-image: url(:/res/image/66.png);
+	border: 0px;
+}
+
+/*pushButton7*/
+QPushButton#pushButton_7{
+        background-image: url(:/res/image/c.png);
+        border: 0px;
+}
+QPushButton#pushButton_7:hover{
+        background-image: url(:/res/image/cc.png);
+        border: 0px;
+}
+QPushButton#pushButton_7:checked{
+        background-image: url(:/res/image/cc.png);
+        border: 0px;
+}
+
+/*pushButton8*/
+QPushButton#pushButton_8{
+        background-image: url(:/res/image/7.png);
+        border: 0px;
+}
+QPushButton#pushButton_8:hover{
+        background-image: url(:/res/image/77.png);
+        border: 0px;
+}
+QPushButton#pushButton_8:checked{
+        background-image: url(:/res/image/77.png);
+        border: 0px;
+}
+
+/*pushButton9*/
+QPushButton#pushButton_9{
+        background-image: url(:/res/image/7.png);
+        border: 0px;
+}
+QPushButton#pushButton_9:hover{
+        background-image: url(:/res/image/77.png);
+        border: 0px;
+}
+QPushButton#pushButton_9:checked{
+        background-image: url(:/res/image/77.png);
+        border: 0px;
+}
+/*pushButtonrestime*/
+QPushButton#pushButtonrestime{
+        background-image: url(:/res/image/01.png);
+        border: 0px;
+}
+QPushButton#pushButtonrestime:hover{
+        background-image: url(:/res/image/10.png);
+        border: 0px;
+}
+QPushButton#pushButtonrestime:checked{
+        background-image: url(:/res/image/10.png);
+        border: 0px;
+}
+
+/*pushButton10*/
+QPushButton#pushButton_10{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButton_10:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButton_10:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButton11*/
+QPushButton#pushButton_11{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButton_11:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButton_11:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButton12*/
+QPushButton#pushButton_12{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButton_12:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButton_12:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButton13*/
+QPushButton#pushButton_13{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButton_13:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButton_13:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButton14*/
+QPushButton#pushButton_14{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButton_14:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButton_14:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButton15*/
+QPushButton#pushButton_15{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButton_15:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButton_15:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButton16*/
+QPushButton#pushButton_16{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButton_16:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButton_16:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButton17*/
+QPushButton#pushButton_17{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButton_17:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButton_17:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButton18*/
+QPushButton#pushButton_18{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButton_18:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButton_18:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButton19*/
+QPushButton#pushButton_19{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButton_19:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButton_19:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+
+/*pushButtonstart*/
+QPushButton#start{
+        background-image: url(:/res/image/bg1.png);
+        border: 0px;
+}
+QPushButton#start:hover{
+        background-image: url(:/res/image/bg11.png);
+        border: 0px;
+}
+QPushButton#start:checked{
+        background-image: url(:/res/image/bg11.png);
+        border: 0px;
+}
+
+/*pushButtonopen*/
+QPushButton#open{
+        background-image: url(:/res/image/bg1.png);
+        border: 0px;
+}
+QPushButton#open:hover{
+        background-image: url(:/res/image/bg11.png);
+        border: 0px;
+}
+QPushButton#open:checked{
+        background-image: url(:/res/image/bg11.png);
+        border: 0px;
+}
+
+/*pushButtonmax*/
+QPushButton#max{
+        background-image: url(:/res/image/bg1.png);
+        border: 0px;
+}
+QPushButton#max:hover{
+        background-image: url(:/res/image/bg11.png);
+        border: 0px;
+}
+QPushButton#max:checked{
+        background-image: url(:/res/image/bg11.png);
+        border: 0px;
+}
+
+/*pushButtonmin*/
+QPushButton#min{
+        background-image: url(:/res/image/bg1.png);
+        border: 0px;
+}
+QPushButton#min:hover{
+        background-image: url(:/res/image/bg11.png);
+        border: 0px;
+}
+QPushButton#min:checked{
+        background-image: url(:/res/image/bg11.png);
+        border: 0px;
+}
+
+/*pushButtonreturn_2*/
+QPushButton#return_2{
+        background-image: url(:/res/image/bg1.png);
+        border: 0px;
+}
+QPushButton#return_2:hover{
+        background-image: url(:/res/image/bg11.png);
+        border: 0px;
+}
+QPushButton#return_2:checked{
+        background-image: url(:/res/image/bg11.png);
+        border: 0px;
+}
+
+/*pushButtonstack*/
+QPushButton#pushButtonstack{
+        background-image: url(:/res/image/9.png);
+        border: 0px;
+}
+QPushButton#pushButtonstack:hover{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+QPushButton#pushButtonstack:checked{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+
+/*pushButtonstack_2*/
+QPushButton#pushButtonstack_2{
+        background-image: url(:/res/image/9.png);
+        border: 0px;
+}
+QPushButton#pushButtonstack_2:hover{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+QPushButton#pushButtonstack_2:checked{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+
+/*pushButtonmem*/
+QPushButton#pushButtonmem{
+        background-image: url(:/res/image/9.png);
+        border: 0px;
+}
+QPushButton#pushButtonmem:hover{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+QPushButton#pushButtonmem:checked{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+
+/*pushButtonmem_2*/
+QPushButton#pushButtonmem_2{
+        background-image: url(:/res/image/9.png);
+        border: 0px;
+}
+QPushButton#pushButtonmem_2:hover{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+QPushButton#pushButtonmem_2:checked{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+
+/*pushButtonundef*/
+QPushButton#pushButtonundef{
+        background-image: url(:/res/image/9.png);
+        border: 0px;
+}
+QPushButton#pushButtonundef:hover{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+QPushButton#pushButtonundef:checked{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+
+/*pushButtonundef_2*/
+QPushButton#pushButtonundef_2{
+        background-image: url(:/res/image/9.png);
+        border: 0px;
+}
+QPushButton#pushButtonundef_2:hover{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+QPushButton#pushButtonundef_2:checked{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+
+/*pushButtonint*/
+QPushButton#pushButtonint{
+        background-image: url(:/res/image/9.png);
+        border: 0px;
+}
+QPushButton#pushButtonint:hover{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+QPushButton#pushButtonint:checked{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+
+/*pushButtonint_2*/
+QPushButton#pushButtonint_2{
+        background-image: url(:/res/image/9.png);
+        border: 0px;
+}
+QPushButton#pushButtonint_2:hover{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+QPushButton#pushButtonint_2:checked{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+
+/*pushButtonred*/
+QPushButton#pushButtonred{
+        background-image: url(:/res/image/9.png);
+        border: 0px;
+}
+QPushButton#pushButtonred:hover{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+QPushButton#pushButtonred:checked{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+
+/*pushButtonred_2*/
+QPushButton#pushButtonred_2{
+        background-image: url(:/res/image/9.png);
+        border: 0px;
+}
+QPushButton#pushButtonred_2:hover{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+QPushButton#pushButtonred_2:checked{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+
+/*pushButtonstack_2*/
+QPushButton#pushButtonstack_2{
+        background-image: url(:/res/image/9.png);
+        border: 0px;
+}
+QPushButton#pushButtonstack_2:hover{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+QPushButton#pushButtonstack_2:checked{
+        background-image: url(:/res/image/99.png);
+        border: 0px;
+}
+
+/*pushButtoncheck*/
+QPushButton#pushButtoncheck{
+        background-image: url(:/res/image/01.png);
+        border: 0px;
+}
+QPushButton#pushButtoncheck:hover{
+        background-image: url(:/res/image/10.png);
+        border: 0px;
+}
+QPushButton#pushButtoncheck:checked{
+        background-image: url(:/res/image/10.png);
+        border: 0px;
+}
+
+/*pushButtoncovercheck*/
+QPushButton#pushButtoncovercheck{
+        background-image: url(:/res/image/01.png);
+        border: 0px;
+}
+QPushButton#pushButtoncovercheck:hover{
+        background-image: url(:/res/image/10.png);
+        border: 0px;
+}
+QPushButton#pushButtoncovercheck:checked{
+        background-image: url(:/res/image/10.png);
+        border: 0px;
+}
+
+/*pushButtoncpu*/
+QPushButton#pushButtoncpu{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButtoncpu:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButtoncpu:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButtoncpu*/
+QPushButton#pushButtoncpu_2{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButtoncpu_2:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButtoncpu_2:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButtonsysio*/
+QPushButton#pushButtonsysio{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButtonsysio:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButtonsysio:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButtonsysio_2*/
+QPushButton#pushButtonsysio_2{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButtonsysio_2:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButtonsysio_2:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+
+/*pushButtonrealtime*/
+QPushButton#pushButtonrealtime{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButtonrealtime:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButtonrealtime:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButtonrealtime_2*/
+QPushButton#pushButtonrealtime_2{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButtonrealtime_2:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButtonrealtime_2:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+/*pushButtoncase*/
+QPushButton#pushButtoncase{
+        background-image: url(:/res/image/8.png);
+        border: 0px;
+}
+QPushButton#pushButtoncase:hover{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+QPushButton#pushButtoncase:checked{
+        background-image: url(:/res/image/88.png);
+        border: 0px;
+}
+
+
+
+/*menuBtn*/
+QPushButton#menuBtn{
+	background-image: url(:/res/image/cai.png);
+	border: 0px;
+}
+QPushButton#menuBtn:hover{
+	background-image: url(:/res/image/cai2.png);
+	border: 0px;
+}
+QPushButton#menuBtn:checked{
+	background-image: url(:/res/image/cai2.png);
+	border: 0px;
+}
+
+/*minBtn*/
+QPushButton#minBtn{
+	background-image: url(:/res/image/min.png);
+	border: 0px;
+}
+QPushButton#minBtn:hover{
+	background-image: url(:/res/image/min2.png);
+	border: 0px;
+}
+QPushButton#minBtn:checked{
+	background-image: url(:/res/image/min2.png);
+	border: 0px;
+}
+
+/*nomalBtn*/
+QPushButton#nomalBtn{
+	background-image: url(:/res/image/max.png);
+	border: 0px;
+}
+QPushButton#nomalBtn:hover{
+	background-image: url(:/res/image/max2.png);
+	border: 0px;
+}
+QPushButton#nomalBtn:checked{
+	background-image: url(:/res/image/max2.png);
+	border: 0px;
+}
+
+/*closeBtn*/
+QPushButton#closeBtn{
+	background-image: url(:/res/image/close.png);
+	border: 0px;
+}
+QPushButton#closeBtn:hover{
+	background-image: url(:/res/image/close2.png);
+	border: 0px;
+}
+QPushButton#closeBtn:checked{
+	background-image: url(:/res/image/close2.png);
+	border: 0px;
+}
+
+/*pushButtonload*/
+QPushButton#pushButtonload{
+        background-image: url(:/res/image/daoru1.png);
+        border: 0px;
+}
+QPushButton#pushButtonload:hover{
+        background-image: url(:/res/image/daoru.png);
+        border: 0px;
+}
+QPushButton#pushButtonload:checked{
+        background-image: url(:/res/image/daoru.png);
+        border: 0px;
+}
+
+/*pushButtonload*/
+QPushButton#pushButtonload_2{
+        background-image: url(:/res/image/daoruke1.png);
+        border: 0px;
+}
+QPushButton#pushButtonload_2:hover{
+        background-image: url(:/res/image/daoruke.png);
+        border: 0px;
+}
+QPushButton#pushButtonload_2:checked{
+        background-image: url(:/res/image/daoruke.png);
+        border: 0px;
+}
