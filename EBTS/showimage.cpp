@@ -5,7 +5,6 @@
 ShowImage::ShowImage(QWidget *parent)
     :QWidget(parent),wscale(1.0),hscale(1.0)
 {
-    //init_path(filename);
     setBackgroundRole(QPalette::Background);//系统背景
 
     setAutoFillBackground(true);//自动填充背景

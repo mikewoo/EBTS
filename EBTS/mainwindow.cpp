@@ -549,7 +549,7 @@ void MainWindow::on_pushButton_6_clicked()
 }
 
 /**
- * @brief 用力生成模块槽函数
+ * @brief 用例生成模块槽函数
  */
 void MainWindow::on_pushButton_5_clicked()
 {
@@ -567,7 +567,9 @@ void MainWindow::setCurrentWidget()
     }
 }
 
-///界面2按钮与widget布局
+/**
+ * @brief 界面2按钮与widget布局
+ */
 void MainWindow::setCurrentWidget2()
 {
     for (int i = 0; i != m_vecBtn2.size(); ++i)
@@ -579,7 +581,9 @@ void MainWindow::setCurrentWidget2()
     }
 }
 
-///界面2_1按钮与widget布局
+/**
+ * @brief 界面2_1按钮与widget布局
+ */
 void MainWindow::setCurrentWidget2_1()
 {
     for (int i = 0; i != m_vecBtn2_1.size(); ++i)
@@ -591,7 +595,9 @@ void MainWindow::setCurrentWidget2_1()
     }
 }
 
-///界面2_1按钮与widget布局
+/**
+ * @brief 界面2_1按钮与widget布局
+ */
 void MainWindow::setCurrentWidget2_1_bak()
 {
     for (int i = 0; i != m_vecBtn2_1_bak.size(); ++i)
@@ -603,7 +609,9 @@ void MainWindow::setCurrentWidget2_1_bak()
     }
 }
 
-///界面3按钮与widget布局
+/**
+ * @brief 界面3按钮与widget布局
+ */
 void MainWindow::setCurrentWidget3()
 {
     for (int i = 0; i != m_vecBtn3.size(); ++i)
@@ -615,7 +623,9 @@ void MainWindow::setCurrentWidget3()
     }
 }
 
-///界面3按钮与widget布局
+/**
+ * @brief 界面3按钮与widget布局
+ */
 void MainWindow::setCurrentWidget3_bak()
 {
     for (int i = 0; i != m_vecBtn3_bak.size(); ++i)
@@ -627,7 +637,9 @@ void MainWindow::setCurrentWidget3_bak()
     }
 }
 
-///界面4按钮与widget布局
+/**
+ * @brief 界面4按钮与widget布局
+ */
 void MainWindow::setCurrentWidget4()
 {
     for (int i = 0; i != m_vecBtn4.size(); ++i)
@@ -639,7 +651,9 @@ void MainWindow::setCurrentWidget4()
     }
 }
 
-///界面4按钮与widget布局
+/**
+ * @brief 界面4按钮与widget布局
+ */
 void MainWindow::setCurrentWidget4_bak()
 {
     for (int i = 0; i != m_vecBtn4_bak.size(); ++i)
@@ -651,6 +665,9 @@ void MainWindow::setCurrentWidget4_bak()
     }
 }
 
+/**
+ * @brief mvc model设置
+ */
 void MainWindow::setupModel()
 {
     model = new QStandardItemModel(0,2);
@@ -660,6 +677,9 @@ void MainWindow::setupModel()
 }
 
 
+/**
+ * @brief mvc view设置
+ */
 void MainWindow::setupView()
 {
 
@@ -963,7 +983,9 @@ void MainWindow::on_pushButton_14_clicked()
 
 }
 
-
+/**
+ * 调用后台CPU利用处理函数
+ */
 void MainWindow::cpushowWork()
 {
 
@@ -975,6 +997,10 @@ void MainWindow::cpushowWork()
     manager->get(QNetworkRequest(QUrl(all)));
 }
 
+
+/**
+ *  测试用例显示函数
+ */
 void MainWindow::casesshowWork()
 {
 
@@ -985,6 +1011,9 @@ void MainWindow::casesshowWork()
     managercases->get(QNetworkRequest(QUrl(all)));
 }
 
+/**
+ * 获取动态检测信息
+ */
 void MainWindow::memshowWork()
 {
     cmdmem->start("python ./Dynamic_detection/file.py");
@@ -1009,6 +1038,9 @@ void MainWindow::memshowWork()
     file.close();
 }
 
+/**
+ * 获取CPU利用率相关指标
+ */
 void MainWindow::cpuReplyFinished(QNetworkReply *reply)
 {
     QTextCodec *codec = QTextCodec::codecForName("utf-8");
@@ -1083,6 +1115,9 @@ void MainWindow::cpuReplyFinished(QNetworkReply *reply)
     reply->deleteLater();
 }
 
+/**
+ * 获取测试用例信息
+ */
 void MainWindow::casesReplyFinished(QNetworkReply *reply)
 {
 
@@ -1130,6 +1165,9 @@ void MainWindow::sysioshowWork()
     managersysio->get(QNetworkRequest(QUrl(all)));
 }
 
+/**
+ * 提取系统利用率
+ */
 void MainWindow::sysioReplyFinished(QNetworkReply *reply)
 {
     QTextCodec *codec = QTextCodec::codecForName("utf-8");
@@ -1246,7 +1284,9 @@ void MainWindow::on_pushButtonload_clicked()
         k++;
     }
 }
-
+/**
+ * 获取代码相应时间信息
+ */
 void MainWindow::restimeReplyFinished(QNetworkReply *reply)
 {
     QTextCodec *codec = QTextCodec::codecForName("utf-8");

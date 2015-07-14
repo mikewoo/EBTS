@@ -4,7 +4,6 @@
 #include <QPixmap>
 #include <QWidget>
 #include <QStringList>
-//#include <QDir>
 
 class ShowImage : public QWidget
 {
@@ -34,7 +33,6 @@ protected:
 private:
     QStringList::const_iterator iterator;//常量迭代器
     QStringList list;
-    //QDir filepath;
     QPixmap pixmap;//“绘图设备”
     double wscale;
     double hscale;

@@ -4,7 +4,6 @@
 #include <QMainWindow>
 #include <QtGui>
 #include <QtCore>
-//#include <QTextCodec>
 #include <QProcess>
 #include <QString>
 #include <QFile>
@@ -61,9 +60,10 @@ public:
 private slots:
     void ShowDateTime();            //动态显示在线时长及当前日期时间
 
+    /****************系统处理槽函数************/
     void on_menuBtn_clicked();
 
-    void on_pushButton_clicked();   //系统主页按钮处理槽函数
+    void on_pushButton_clicked();
 
     void on_pushButton_4_clicked();
 
@@ -89,49 +89,13 @@ private slots:
 
     void on_pushButton_14_clicked();
 
-    void scalethepix(int);
-
-    void changelabel(int);
-
-    void scalethepix1(int);
-
-    void changelabel1(int);
-
     void on_pushButtoncpu_clicked();
 
     void on_pushButtonsysio_clicked();
 
     void on_pushButtonrealtime_clicked();
 
-    void cpuReplyFinished(QNetworkReply *);
-
-    void cpushowWork();
-
-    void casesReplyFinished(QNetworkReply *);
-
-    void casesshowWork();
-
-    //void memReplyFinished(QNetworkReply *);
-
-    void memshowWork();
-
-    void sysioReplyFinished(QNetworkReply *);
-
-    void sysioshowWork();
-
-    void resaddReplyFinished(QNetworkReply *);
-
-    void restimeReplyFinished(QNetworkReply *);
-
-    void memcheckReplyFinished(QNetworkReply *);
-
-    void memcheckresReplyFinished(QNetworkReply *);
-
-    void coverresReplyFinished(QNetworkReply *);
-
     void on_pushButtonload_clicked();
-
-    void filereplyFinished(QNetworkReply*);
 
     void on_pushButtonrestime_clicked();
 
@@ -180,6 +144,46 @@ private slots:
     void on_pushButtonrealtime_2_clicked();
 
     void on_pushButtonload_2_clicked();
+
+    /*****************************************/
+
+    void scalethepix(int);
+
+    void changelabel(int);
+
+    void scalethepix1(int);
+
+    void changelabel1(int);
+
+    /***************HTTP交互应答函数********************/
+
+    void cpuReplyFinished(QNetworkReply *);
+
+    void casesReplyFinished(QNetworkReply *);
+
+    void sysioReplyFinished(QNetworkReply *);
+
+    void resaddReplyFinished(QNetworkReply *);
+
+    void restimeReplyFinished(QNetworkReply *);
+
+    void memcheckReplyFinished(QNetworkReply *);
+
+    void memcheckresReplyFinished(QNetworkReply *);
+
+    void coverresReplyFinished(QNetworkReply *);
+
+    void filereplyFinished(QNetworkReply*);
+
+    /*****************************************/
+
+    void cpushowWork();
+
+    void casesshowWork();
+
+    void memshowWork();
+
+    void sysioshowWork();
 
 private:
     Ui::MainWindow *ui;
